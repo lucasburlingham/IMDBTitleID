@@ -1,7 +1,7 @@
 # IMDBTitleID
 
 <p align="center">
-<img src="pilot_screenshot.png" alt="Screenshot showing the Copy IMDB ID button" height="200">
+<img src="pilot_screenshot.png" alt="Screenshot showing the Copy IMDB ID button" height="200" style="box-shadow: 3px 3px 6px #00000040; border-radius: 6px;">
 </p>
 A simple Chrome and Firefox extension to copy the IMDB title ID from links on an IMDB page.
 
