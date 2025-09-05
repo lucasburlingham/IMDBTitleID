@@ -1,0 +1,25 @@
+{
+	"manifest_version": 3,
+	"name": "IMDBTitleID",
+	"version": "1.0",
+	"author": "Lucas Burlingham",
+	"homepage_url": "https://github.com/lburlingham/IMDBTitleID",
+	"description": "Click to copy the IMDB title ID from the links in an IMDB page.",
+	"permissions": [
+		"activeTab",
+		"tabs"
+	],
+	"host_permissions": [
+		"https://*.imdb.com/*"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://*.imdb.com/*"
+			],
+			"js": [
+				"content-script.js"
+			]
+		}
+	]
+}
